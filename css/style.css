@@ -23,6 +23,9 @@ nav a{
     color: black;
     margin: 2px;
 }
+nav a:hover{
+    text-decoration: underline;
+}
 nav img{
     width: 2%;
     max-width: 100%;
@@ -32,32 +35,6 @@ nav img{
 .activo{
     text-decoration: underline;
 }
-/* header{
-    text-align: center;
-    width: 100%;
-    height: 500px;
-    background-color: #b45008;
-    background-image: url(../img/banner.JPG);
-    background-size: cover;
-    background-color: no-repeat;
-}
-header h1{
-    font-family: 'Poppins', sans-serif;
-    /* text-transform: lowercase; 
-    font-weight: 300;
-    font-size: 2em;
-}
-header h1 span{
-    font-family: miFuente;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 3em;
-    color: #b45008;
-}
-header div{
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-} */
 #encabezado{
     width: 100%;
     height: 500px;
@@ -97,6 +74,9 @@ main{
 }
 .division div{
     width: 50%;
+}
+.division img:hover{
+    opacity: 0.5;
 }
 .division div img{
     width: 80%;
