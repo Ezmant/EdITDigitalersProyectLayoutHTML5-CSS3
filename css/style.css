@@ -85,12 +85,6 @@ main{
     border-radius: 10px /20px;
     box-shadow: 1px 3px 10px black;
 }
-.grilla{
-
-}
-.grilla div{
-    background-color: red;
-}
 .nosotros{
     background-color: #b45008;
 }
@@ -108,6 +102,23 @@ main{
     gap: 10px;
     grid-template-columns: 60% 40%;
     grid-template-rows: 200px 200px;
+}
+.grilla div:first-child{
+    background-position: -140px 0px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(../img/gym-01.JPG);
+}
+.grilla div:nth-child(2){
+    background-image: url(../img/gym-02.JPG);
+}
+.grilla div:nth-child(3){
+    background-image: url(../img/gym-03.JPG);
+}
+.grilla div{
+    background-color: red;
+    width: auto;
+    background-size: cover;
 }
 h1{
     margin: 0;
@@ -149,4 +160,7 @@ footer{
 footer ul{
     margin: 0;
     padding: 0;
+}
+footer ul:first-of-type, footer p:first-child{
+    font-weight: bold;
 }
