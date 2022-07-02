@@ -172,6 +172,7 @@ footer{
 footer ul{
     margin: 0;
     padding: 0;
+    list-style-type: none;
 }
 footer ul:first-of-type, footer p:first-child{
     font-weight: bold;
